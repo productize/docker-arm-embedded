@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:17.04
 MAINTAINER Seppe Stas <seppe@productize.be>
 LABEL Description="Image for building arm-embedded projects from git and/or hg"
 
