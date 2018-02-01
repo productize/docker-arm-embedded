@@ -6,4 +6,5 @@ RUN apt-get update -qq && apt-get install -y \
   build-essential \
   gcc-arm-none-eabi \
   git \
-  mercurial
+  mercurial \
+  && rm -rf /var/lib/apt/lists/*
